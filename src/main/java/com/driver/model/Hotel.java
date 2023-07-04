@@ -6,9 +6,7 @@ public class Hotel {
 
     private String hotelName; //This will be the primary key and will be unique for each hotel in hotelDb
     private int availableRooms;
-
     private List<Facility> facilities;
-
     private int pricePerNight;
 
     public Hotel(String hotelName, int availableRooms, List<Facility> facilities, int pricePerNight) {
